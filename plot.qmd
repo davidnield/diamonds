@@ -15,5 +15,7 @@ ggplot(aes(x = carat, y = price, color = cut)) +
   geom_point() +
   geom_smooth() +
   labs(title = current_datetime)
+
+print('foo')
   
 ```
